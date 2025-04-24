@@ -20,5 +20,5 @@ Este é um sistema simples de login com uma landing page de boas-vindas, desenvo
 
 1. **Clone o Repositório**
    ```bash
-   git clone https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git
+   git clone https://github.com/GabrielAlexandre20/login.git
 
