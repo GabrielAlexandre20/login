@@ -1,0 +1,111 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to right top, #850505, #a22465, #8563b5, #3295da, #11bbd5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Login Container */
+  .login {
+    width: 90%;
+    max-width: 400px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid #fff;
+    border-radius: 30px;
+    padding: 40px 30px;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    text-align: center;
+  }
+  
+  .logo-container img {
+    margin-bottom: 30px;
+  }
+  
+  /* Input Containers */
+  .dados {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .botao1 {
+    background-color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .imgicon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .novas {
+    flex: 1;
+    height: 40px;
+    margin-left: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+  }
+  
+  /* Submit Button */
+  .botao {
+    background-color: #4d546e;
+    border: 1px solid #fff;
+    color: white;
+    padding: 12px 30px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.3s;
+  }
+  
+  .botao:hover {
+    background-color: #3c435a;
+    box-shadow: 0 12px 16px rgba(0,0,0,0.24), 0 17px 50px rgba(0,0,0,0.19);
+  }
+  
+  /* Textos e Links */
+  .textos {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  
+  .register {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .registre {
+    color: #fff;
+    font-size: 15px;
+  }
+  
+  .registre a {
+    color: #ffea00;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .registre a:hover {
+    text-decoration: underline;
+  }
+  
